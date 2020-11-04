@@ -8,14 +8,11 @@
 </head>
 
 <body>
-    <!--Início do Menu-->
-    <nav class="menu">
-        <a href="index.html"><img width="100px" src="imagens\logo.png"></a>
-        <a class="itenmenu" href="produtos.html">Amigões de estimação</a>
-        <a class="itenmenu" href="loja.html">Nossas lojas</a>
-        <a class="itenmenu" href="contato.html">Contato</a>
-    </nav>
-    <!--Fim do Menu-->
+    <!--Menu-->
+   <?php
+    include_once("menu.html");
+   ?>  
+
     <div class="lojas">
         <div class="endereco">
             <h3>São Paulo - SP</h3>
